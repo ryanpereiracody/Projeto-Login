@@ -50,3 +50,12 @@ section#login > div#Formulario {
     display: block;
     
 }
+div#Formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+div#Formulario > p{
+    font-size: 1.0em;
+}

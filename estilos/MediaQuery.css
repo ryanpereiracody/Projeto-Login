@@ -17,6 +17,7 @@ Grandes Telas: acima de 1200px
 
     section#login{
         width: 80vw;
+        height: 350px;
     }
     section#login > div#imagem{
         float: left;
@@ -27,27 +28,28 @@ Grandes Telas: acima de 1200px
     section#login > div#formulario{
         float: right;
         width: 70%;
+        
     }
     div#Formulario > h1{
     text-align: center;
     margin-bottom: 10px;
     font-size: 2em;
-}
+    }
 
-div#Formulario > p{
+    div#Formulario > p{
     font-size: 1.2em;
-}
-form >input[type=submit]{
-    display: block;
-    font-size: 1em;
-    width: 100%;
+    }
+    
+    form >input[type=submit]{
+    width: 65.3%;
     height: 40px;
-    background-color: rgb(42, 133, 102);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    }
+
+    div.campo > input{
+        width: calc(100% - 310px);
+    transform: translate(2px, -13px);
+    }
+    
 }
 @media screen and (min-width: 992px) {
     body{
@@ -56,11 +58,13 @@ form >input[type=submit]{
     
     section#login{
         width: 950px;
+        height: 400px;
     }
     section#login > div#imagem{
         float: right;
         width: 50%;
         height: 100%;
+        
     }
 
     section#login > div#formulario{
@@ -71,9 +75,22 @@ form >input[type=submit]{
     text-align: center;
     margin-bottom: 10px;
     font-size: 2.5em;
-}
+    }
 
-div#Formulario > p{
+    div#Formulario > p{
     font-size: 1.5em;
-}
+    text-align: justify;
+    margin: 20px 0px;
+    
+    }
+
+    form >input[type=submit]{
+    width: 50%;
+    height: 40px;
+    }
+   
+    div.campo > input{
+        width: calc(100% - 508px);
+    transform: translate(2px, -13px);
+    }
 }

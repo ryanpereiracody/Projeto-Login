@@ -27,8 +27,8 @@ section#login{
     transform: translate(-50%, -50%);
     
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 260px;
+    height: 550px;
     margin: auto;
     border-radius: 20px;
     overflow: hidden;
@@ -58,4 +58,52 @@ div#Formulario > h1{
 
 div#Formulario > p{
     font-size: 1.0em;
+}
+
+form >input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(42, 133, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form >input[type=submit]:hover{
+    background-color: rgb(19, 56, 44);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(119, 194, 169);
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(81, 131, 114);
+    color:rgb(50, 78, 69) ;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
+
+}
+
+form > div.campo{
+    background-color: blueviolet;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display:none;
 }
